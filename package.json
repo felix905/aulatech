@@ -1,0 +1,17 @@
+{
+  "name": "prototipo_sitio_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}

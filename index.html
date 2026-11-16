@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Aula Tech | Alquiler de equipamiento para cursos y talleres</title>
+  <meta
+    name="description"
+    content="Alquiler de equipamiento para cursos y talleres: 6 equipos para alumnos, laptop del profesor, videobeam y pantalla compartida en red local. Tarifas por horas."
+  />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- REEMPLAZAR por el dominio real antes de publicar, y descomentar:
+  <link rel="canonical" href="https://TU-DOMINIO/" />
+  <meta property="og:url" content="https://TU-DOMINIO/" />
+  <meta property="og:image" content="https://TU-DOMINIO/assets/images/og-aula-tech.jpg" />
+  -->
+
+  <!-- Open Graph / redes -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Aula Tech" />
+  <meta property="og:title" content="Aula Tech | Alquiler de equipamiento para cursos y talleres" />
+  <meta property="og:description" content="6 equipos para alumnos, laptop del profesor, videobeam y pantalla compartida en red local. Tarifas por horas para academias y colegios." />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Datos estructurados (sin precios: falta confirmar la moneda) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Aula Tech",
+        "description": "Alquiler de equipamiento para cursos y talleres con sistema local de pantalla compartida."
+      },
+      {
+        "@type": "Service",
+        "name": "Alquiler de equipamiento para cursos y talleres",
+        "serviceType": "Alquiler de equipamiento informático",
+        "description": "Kit con 6 equipos para alumnos, 1 laptop para el profesor, 1 videobeam y sistema local de pantalla compartida.",
+        "provider": { "@type": "Organization", "name": "Aula Tech" },
+        "audience": { "@type": "Audience", "audienceType": "Academias y colegios" }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+
+  <!-- Tailwind por CDN: adecuado para visualizar esta versión sin compilar. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#344F73",
+            muted: "#7D8FA5",
+            mint: "#7EE8AE",
+            lavender: "#D5C9EF",
+            ice: "#E6F2FB",
+            panel: "#EEF0F0",
+            footer: "#334F76",
+            charcoal: "#24252B"
+          },
+          fontFamily: {
+            sans: ["Manrope", "sans-serif"],
+            inter: ["Inter", "sans-serif"]
+          },
+          maxWidth: {
+            page: "1280px"
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    summary { list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    details[open] .faq-plus { display: none; }
+    details:not([open]) .faq-minus { display: none; }
+
+    :focus-visible {
+      outline: 3px solid #344f73;
+      outline-offset: 5px;
+    }
+  </style>
+</head>
+
+<body class="bg-white font-sans text-ink antialiased">
+
+  <!-- CABECERA -->
+  <header class="mx-auto max-w-page px-6 xl:px-0">
+    <div class="flex min-h-[95px] items-center justify-between gap-6">
+      <a href="#inicio" aria-label="Aula Tech, inicio" class="shrink-0">
+        <img
+          src="assets/images/logo_aula_tech.svg"
+          alt="Aula Tech"
+          width="152"
+          height="57"
+          class="h-auto w-32 md:w-[190px]"
+        />
+      </a>
+
+      <nav
+        aria-label="Navegación principal"
+        class="hidden items-center gap-9 text-sm text-[#676873] md:flex"
+      >
+        <a href="#incluye" class="transition hover:text-ink">Feature</a>
+        <a href="#funciona" class="transition hover:text-ink">Services</a>
+        <a href="#preguntas" class="transition hover:text-ink">About Us</a>
+        <!-- Sustituir por la URL real del blog -->
+        <a href="#contacto" class="transition hover:text-ink">Blog</a>
+      </nav>
+
+        <a
+          href="#contacto"
+          class="inline-flex min-h-[55px] items-center gap-5 rounded-full bg-mint px-6 text-base font-bold transition hover:brightness-95"
+        >
+          Solicitar equipamiento
+          <i class="ti ti-arrow-right text-xl" aria-hidden="true"></i>
+        </a>
+
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- HERO -->
+    <section class="mx-auto max-w-page px-6 pb-14 pt-12 md:pt-[54px] xl:px-0 border-t border-[#c3c3c366]">
+    
+     <h1
+  class="mt-6 font-inter text-[34px] font-medium leading-[1] tracking-[-0.045em] sm:text-[48px] lg:text-[64px]"
+>
+  Su próxima clase merece
+
+  <span class="mt-1 flex flex-wrap items-center gap-x-5 gap-y-4">
+    <span class="font-normal text-ink/65">un aula lista para empezar.</span>
+  </span>
+</h1>
+
+    
+
+      <div class="mt-16 overflow-hidden rounded-2xl">
+        <img
+          src="assets/images/hero.png"
+          alt="Personas trabajando con equipos informáticos en un aula"
+          width="1280"
+          height="340"
+          class="h-[240px] w-full object-cover md:h-[460px]"
+          fetchpriority="high"
+        />
+      </div>
+    </section>
+
+    <!-- QUÉ INCLUYE -->
+    <section
+      id="incluye"
+      class="mx-auto max-w-page scroll-mt-8 px-6 xl:px-0"
+    >
+      <div class=" pb-16 pt-12 md:pb-[70px] md:pt-[68px]">
+        <p class="font-inter text-xs font-semibold uppercase text-[#08454C] md:text-base">
+          01 / Qué incluye
+        </p>
+
+        <h2
+          class="mt-10 text-[30px] leading-[1.08] tracking-[-0.045em] md:mt-12 md:text-[50px]"
+        >
+          Todo el equipamiento.<br />
+          Una clase lista para empezar.
+        </h2>
+
+        <div class="mt-10 grid gap-4 md:mt-12 md:grid-cols-3">
+          <article class="rounded-2xl bg-[#F0F0F5] p-[30px] md:min-h-[296px]">
+            <i class="ti ti-device-desktop text-5xl" aria-hidden="true"></i>
+
+            <h3 class="mt-6 text-[26px] font-semibold leading-[1.2]">
+              6 equipos para<br />
+              alumnos
+            </h3>
+
+            <p class="mt-5 text-lg font-medium leading-[1.5] md:text-xl">
+              Un puesto listo para cada alumno, conectado a la red del aula.
+            </p>
+          </article>
+
+          <article class="rounded-2xl bg-lavender p-[30px] md:min-h-[296px]">
+            <i class="ti ti-device-laptop text-5xl" aria-hidden="true"></i>
+
+            <h3 class="mt-6 text-[26px] font-semibold leading-[1.2]">
+              1 laptop para<br />
+              el profesor
+            </h3>
+
+            <p class="mt-5 text-lg font-medium leading-[1.5] md:text-xl">
+              Desde aquí se crea la sesión y se comparte el contenido.
+            </p>
+          </article>
+
+          <article class="rounded-2xl bg-ice p-[30px] md:min-h-[296px]">
+            <i class="ti ti-screen-share text-5xl" aria-hidden="true"></i>
+
+            <h3 class="mt-6 text-[26px] font-semibold leading-[1.2]">
+              Sistema de pantalla<br />
+              compartida
+            </h3>
+
+            <p class="mt-5 text-lg font-medium leading-[1.5] md:text-xl">
+              Los alumnos ven la pantalla del profesor desde su app de escritorio.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section
+      id="funciona"
+      class="mx-auto max-w-page scroll-mt-8 px-6 xl:px-0"
+    >
+      <div class=" pb-16 pt-12 md:pb-[70px] md:pt-[68px]">
+        <p class="font-inter text-xs font-semibold uppercase text-[#08454C] md:text-base">
+          02 / Cómo funciona
+        </p>
+
+        <div
+          class="mt-10 grid items-center gap-12 md:mt-12 lg:grid-cols-[530px_minmax(0,1fr)] lg:gap-[100px]"
+        >
+          <div>
+            <h2
+              class="max-w-[530px] text-[40px] leading-[1.04] tracking-[-0.045em] md:text-[50px]"
+            >
+              Lo que tú<br class="hidden lg:block" />
+              compartes,<br />
+              lo ve tu grupo.
+            </h2>
+
+            <p class="mt-7 max-w-[460px] text-xl font-medium leading-[1.5] text-[#718095] md:text-2xl">
+              El profesor decide cuándo empezar y cuándo detener la transmisión.
+              Los alumnos ven el contenido en su navegador.
+            </p>
+
+            <div class="mt-8 flex flex-wrap items-center gap-x-10 gap-y-5">
+              <a
+                href="#contacto"
+                class="inline-flex min-h-[55px] items-center gap-5 rounded-full bg-mint px-6 text-base font-bold transition hover:brightness-95"
+              >
+                Solicitar equipamiento
+                <i class="ti ti-arrow-right text-xl" aria-hidden="true"></i>
+              </a>
+
+              <button
+                type="button"
+                disabled
+                title="Enlace de descarga pendiente"
+                class="inline-flex items-center gap-4 text-base font-semibold text-charcoal disabled:cursor-not-allowed"
+              >
+                Download App
+                <i class="ti ti-download text-xl" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="relative isolate">
+            <img
+              src="assets/images/clases.png"
+              alt="Dos personas revisando contenido en una laptop"
+              width="650"
+              height="580"
+              class="aspect-[650/580] w-full rounded-2xl object-cover"
+              loading="lazy"
+            />
+
+            <!-- Tarjetas superpuestas conservadas del diseño -->
+            <div
+              class="absolute bottom-[7%] right-[4%] w-[65%] space-y-3 sm:w-[58%]"
+            >
+              <div class="rounded-xl bg-white p-3 shadow-lg sm:p-5">
+                <div class="flex items-center gap-3">
+                  <span
+                    class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#EFE9FA] text-xs text-[#7560B4]"
+                  >
+                    AR
+                  </span>
+
+                  <div class="min-w-0">
+                    <p class="text-[10px] text-[#676873]">From</p>
+                    <p class="truncate text-sm text-charcoal sm:text-xl">
+                      Albert Rivaldo
+                    </p>
+                  </div>
+
+                  <span class="ml-auto text-[10px] text-[#676873]">USD⌄</span>
+                </div>
+
+                <div class="mt-4 flex flex-wrap justify-between gap-2 border-t border-gray-100 pt-3 text-[10px] text-[#676873]">
+                  <span>Total money: $45,234.00</span>
+                  <span>Interest: $50.00</span>
+                </div>
+              </div>
+
+              <div class="flex gap-3 rounded-xl bg-white p-3 shadow-lg sm:p-5">
+                <span
+                  aria-hidden="true"
+                  class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#EFE9FA] text-[#7560B4]"
+                >
+                  ✓
+                </span>
+
+                <div>
+                  <p class="text-xs font-semibold text-charcoal sm:text-lg">
+                    Instant KYC &amp; Verification
+                  </p>
+                  <p class="mt-2 text-[10px] leading-relaxed text-[#676873] sm:text-xs">
+                    Get approved fast with biometric authentication and encryption.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section
+      id="precios"
+      class="mx-auto max-w-page scroll-mt-8 px-6 xl:px-0"
+    >
+      <div class=" pb-16 pt-12 md:pb-[70px] md:pt-[68px]">
+        <p class="font-inter text-xs font-semibold uppercase text-[#08454C] md:text-base">
+          03 / Precios
+        </p>
+
+        <h2
+          class="mt-10 text-[30px] leading-[1.08] tracking-[-0.045em] md:mt-12 md:text-[50px]"
+        >
+          Tarifas claras.<br />
+          Sin sorpresas.
+        </h2>
+
+        <section
+          aria-label="Tarifas para academias y colegios"
+          class="mt-10 grid grid-cols-1 gap-8 md:mt-12 lg:grid-cols-2"
+          style="font-family: 'Manrope', sans-serif"
+        >
+          <h3 class="sr-only">Tarifas de alquiler para academias y colegios</h3>
+          <article
+            aria-labelledby="titulo-academias"
+            class="flex flex-col overflow-hidden rounded-[20px] bg-[#EAE4FA] p-6 text-[#191919] sm:p-10"
+          >
+            <div class="grid grid-cols-[1.15fr_1fr] items-start gap-4 sm:gap-6">
+              <div class="min-w-0 pt-2">
+                <span class="text-sm sm:text-base">[01]</span>
+
+                <h3
+                  id="titulo-academias"
+                  class="mt-4 text-[clamp(1.5rem,3vw,2.75rem)] font-semibold leading-tight tracking-tight"
+                >
+                  Academias
+                </h3>
+
+                <p class="mt-1 text-lg leading-tight sm:text-[28px]">
+                  Uso flexible<br />
+                  por horas.
+                </p>
+
+                <div
+                  class="mt-6 flex size-16 items-center justify-center rounded-full bg-white/35 sm:mt-8 sm:size-24"
+                  aria-hidden="true"
+                >
+                  <svg
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="size-10 sm:size-14"
+                  >
+                    <path d="M2 11.5 16 5l14 6.5L16 18 2 11.5Z" />
+                    <path d="M8 14.5V22c4.8 4 11.2 4 16 0v-7.5" />
+                    <path d="M30 11.5V22" />
+                  </svg>
+                </div>
+              </div>
+
+              <img
+                src="assets/images/academias.jpg"
+                alt="Estudiantes de una academia trabajando en equipo con su docente"
+                width="560"
+                height="720"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[7/9] w-full rounded-xl object-cover"
+              />
+            </div>
+
+            <div class="mt-10 sm:mt-14">
+              <p class="text-base leading-relaxed sm:text-[24px]">
+                <strong class="font-semibold">Reserva mínima:</strong> 1 hora.
+              </p>
+              <p class="text-sm leading-relaxed text-black/75 sm:text-[20px]">
+                Paga por bloque o por día completo de 8 horas.
+              </p>
+            </div>
+
+            <dl
+              class="mt-6 grid grid-cols-3 gap-3 border-t border-[#D0CFDE] pt-5 sm:gap-6"
+            >
+              <div class="flex min-w-0 flex-col justify-between gap-5">
+                <dt class="text-sm font-medium text-black/75 sm:text-lg">
+                  1–2 horas
+                </dt>
+                <dd class="text-3xl font-medium tracking-tight sm:text-4xl">
+                  $20
+                </dd>
+              </div>
+
+              <div class="flex min-w-0 flex-col justify-between gap-5">
+                <dt class="text-sm font-medium text-black/75 sm:text-lg">
+                  3–4 horas
+                </dt>
+                <dd class="text-3xl font-medium tracking-tight sm:text-4xl">
+                  $30
+                </dd>
+              </div>
+
+              <div class="flex min-w-0 flex-col justify-between gap-5">
+                <dt class="text-sm font-medium text-black/75 sm:text-lg">
+                  Día completo
+                </dt>
+                <dd class="text-3xl font-medium tracking-tight sm:text-4xl">
+                  $50
+                </dd>
+              </div>
+            </dl>
+          </article>
+
+
+          <article
+            aria-labelledby="titulo-colegios"
+            class="flex flex-col overflow-hidden rounded-[20px] bg-[#E9E9E9] p-6 text-[#191919] sm:p-10"
+          >
+            <div class="grid grid-cols-[1.15fr_1fr] items-start gap-4 sm:gap-6">
+              <div class="min-w-0 pt-2">
+                <span class="text-sm sm:text-base">[02]</span>
+
+                <h3
+                  id="titulo-colegios"
+                  class="mt-4 text-[clamp(1.5rem,3vw,2.75rem)] font-semibold leading-tight tracking-tight"
+                >
+                  Colegios
+                </h3>
+
+                <p class="mt-1 text-lg leading-tight sm:text-[28px]">
+                  Uso flexible<br />
+                  por horas.
+                </p>
+
+                <div
+                  class="mt-6 flex size-16 items-center justify-center rounded-full bg-white/35 sm:mt-8 sm:size-24"
+                  aria-hidden="true"
+                >
+                  <svg
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="size-10 sm:size-14"
+                  >
+                    <path d="M4 28V16l8-7v19H4Z" />
+                    <path d="M12 28V4h16v24H12Z" />
+                    <path d="M17 9h1m5 0h1m-7 5h1m5 0h1m-1 5h1" />
+                    <path d="M17 28v-8h4v8M2 28h28" />
+                  </svg>
+                </div>
+              </div>
+
+              <img
+                src="assets/images/colegios.jpg"
+                alt="Docente acompañando a estudiantes de colegio en el aula"
+                width="560"
+                height="720"
+                loading="lazy"
+                decoding="async"
+                class="aspect-[7/9] w-full rounded-xl object-cover"
+              />
+            </div>
+
+            <div class="mt-10 sm:mt-14">
+              <p class="text-base leading-relaxed sm:text-[24px]">
+                <strong class="font-semibold">Reserva mínima:</strong> 1 hora.
+              </p>
+              <p class="text-sm leading-relaxed text-black/75 sm:text-[20px]">
+                Paga por bloque o por día completo de 8 horas.
+              </p>
+            </div>
+
+            <dl
+              class="mt-6 grid grid-cols-3 gap-3 border-t border-[#D0CFDE] pt-5 sm:gap-6"
+            >
+              <div class="flex min-w-0 flex-col justify-between gap-5">
+                <dt class="text-sm font-medium text-black/75 sm:text-lg">
+                  1–2 horas
+                </dt>
+                <dd class="text-3xl font-medium tracking-tight sm:text-4xl">
+                  $20
+                </dd>
+              </div>
+
+              <div class="flex min-w-0 flex-col justify-between gap-5">
+                <dt class="text-sm font-medium text-black/75 sm:text-lg">
+                  3–4 horas
+                </dt>
+                <dd class="text-3xl font-medium tracking-tight sm:text-4xl">
+                  $30
+                </dd>
+              </div>
+
+              <div class="flex min-w-0 flex-col justify-between gap-5">
+                <dt class="text-sm font-medium text-black/75 sm:text-lg">
+                  Día completo
+                </dt>
+                <dd class="text-3xl font-medium tracking-tight sm:text-4xl">
+                  $50
+                </dd>
+              </div>
+            </dl>
+          </article>
+        </section>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section
+      id="preguntas"
+      class="mx-auto max-w-page scroll-mt-8 px-6 pb-20 md:pb-28 xl:px-0"
+    >
+      <div class=" pb-16 pt-12 md:pb-[70px] md:pt-[68px]">
+        <p class="font-inter text-xs font-semibold uppercase text-[#08454C] md:text-base">
+          04 / Preguntas frecuentes
+        </p>
+
+        <div
+          class="mt-10 grid gap-10 rounded-2xl bg-panel p-6 md:mt-12 md:p-10 lg:min-h-[636px] lg:grid-cols-[348px_minmax(0,1fr)] lg:gap-12"
+        >
+          <div>
+            <h2 class="text-[30px] leading-[1.02] tracking-[-0.045em] md:text-[50px]">
+              Antes de<br />
+              preparar tu<br />
+              clase.
+            </h2>
+
+            <p class="mt-6 text-lg font-medium leading-[1.5] text-ink/80 md:text-xl">
+              Qué incluye, cómo se conecta y qué límites protege la sesión.
+            </p>
+
+            <img
+              src="assets/clase.png"
+              alt="Participantes preparando una clase en grupo"
+              width="348"
+              height="230"
+              class="mt-6 aspect-[348/230] w-full rounded-xl object-cover"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="font-inter">
+            <details open class="group border-b border-ink/15">
+              <summary
+                class="flex cursor-pointer items-center justify-between gap-6 py-5 text-base font-medium"
+              >
+                ¿Qué incluye el kit?
+                <span class="faq-plus text-2xl font-normal" aria-hidden="true">+</span>
+                <span class="faq-minus text-2xl font-normal" aria-hidden="true">−</span>
+              </summary>
+
+              <p class="pb-7 pr-8 text-base leading-[1.6] text-[#465658]/80">
+                6 equipos para alumnos, 1 laptop para el profesor, 1 videobeam y
+                el sistema local de pantalla compartida.
+              </p>
+            </details>
+
+            <!-- Las siguientes respuestas no están visibles en el diseño.
+                 Sustituir el texto provisional por las respuestas aprobadas. -->
+
+            <details class="border-b border-ink/15">
+              <summary class="flex cursor-pointer items-center justify-between gap-6 py-7 text-base font-medium">
+                ¿Necesitamos Internet?
+                <span class="faq-plus text-2xl font-normal" aria-hidden="true">+</span>
+                <span class="faq-minus text-2xl font-normal" aria-hidden="true">−</span>
+              </summary>
+              <p class="pb-6 text-sm leading-relaxed text-ink/70">
+                Respuesta pendiente de completar.
+              </p>
+            </details>
+
+            <details class="border-b border-ink/15">
+              <summary class="flex cursor-pointer items-center justify-between gap-6 py-7 text-base font-medium">
+                ¿Hay que crear cuentas?
+                <span class="faq-plus text-2xl font-normal" aria-hidden="true">+</span>
+                <span class="faq-minus text-2xl font-normal" aria-hidden="true">−</span>
+              </summary>
+              <p class="pb-6 text-sm leading-relaxed text-ink/70">
+                Respuesta pendiente de completar.
+              </p>
+            </details>
+
+            <details class="border-b border-ink/15">
+              <summary class="flex cursor-pointer items-center justify-between gap-6 py-7 text-base font-medium">
+                ¿Y si participan más de 6 personas?
+                <span class="faq-plus text-2xl font-normal" aria-hidden="true">+</span>
+                <span class="faq-minus text-2xl font-normal" aria-hidden="true">−</span>
+              </summary>
+              <p class="pb-6 text-sm leading-relaxed text-ink/70">
+                Respuesta pendiente de completar.
+              </p>
+            </details>
+
+            <details class="border-b border-ink/15">
+              <summary class="flex cursor-pointer items-center justify-between gap-6 py-7 text-base font-medium">
+                ¿Se graban las clases?
+                <span class="faq-plus text-2xl font-normal" aria-hidden="true">+</span>
+                <span class="faq-minus text-2xl font-normal" aria-hidden="true">−</span>
+              </summary>
+              <p class="pb-6 text-sm leading-relaxed text-ink/70">
+                Respuesta pendiente de completar.
+              </p>
+            </details>
+
+            <details>
+              <summary class="flex cursor-pointer items-center justify-between gap-6 py-7 text-base font-medium">
+                ¿Hay que instalar algo?
+                <span class="faq-plus text-2xl font-normal" aria-hidden="true">+</span>
+                <span class="faq-minus text-2xl font-normal" aria-hidden="true">−</span>
+              </summary>
+              <p class="pb-6 text-sm leading-relaxed text-ink/70">
+                Respuesta pendiente de completar.
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="scroll-mt-8  bg-white text-ink">
+    <div class="mx-auto max-w-page px-6 py-10 xl:px-0">
+      <div class="flex flex-col gap-7 sm:flex-row sm:items-center sm:gap-6">
+        <a href="#inicio" aria-label="Aula Tech, volver al inicio" class="shrink-0">
+          <img
+            src="assets/images/logo_aula_tech.svg"
+            alt="Aula Tech"
+            width="191"
+            height="72"
+            class="h-auto w-[191px] "
+          />
+        </a>
+
+        <p class="text-[26px] font-medium leading-[1.08]">
+          <span class="text-ink/65">Tú preparas la clase.</span><br />
+          Nosotros, el aula.
+        </p>
+      </div>
+
+      <div
+        class="mt-7 flex flex-col gap-5  pt-7 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <!-- Sustituir por enlaces reales a redes sociales -->
+        <ul aria-label="Redes sociales pendientes de enlazar" class="flex gap-3">
+          <li class="flex h-9 w-9 items-center justify-center rounded-full border border-[#C3C3C3] text-xs">
+            <i class="ti ti-brand-linkedin text-base" aria-hidden="true"></i>
+          </li>
+          <li class="flex h-9 w-9 items-center justify-center rounded-full border border-[#C3C3C3] text-xs">
+            <i class="ti ti-brand-facebook text-base" aria-hidden="true"></i>
+          </li>
+          <li class="flex h-9 w-9 items-center justify-center rounded-full border border-[#C3C3C3] text-xs">
+            <i class="ti ti-brand-x text-base" aria-hidden="true"></i>
+          </li>
+          <li class="flex h-9 w-9 items-center justify-center rounded-full border border-[#C3C3C3] text-xs">
+            <i class="ti ti-brand-instagram text-base" aria-hidden="true"></i>
+          </li>
+        </ul>
+
+        <a href="mailto:info@aulatech.com" class="text-sm hover:underline">
+          info@aulatech.com
+        </a>
+      </div>
+
+      <div
+        class="mt-7 flex flex-col gap-5  pt-6 text-xs text-[#676873] md:flex-row md:items-center md:justify-between"
+      >
+        <p>@2026 Aula Tech. All right reserved</p>
+
+        <nav aria-label="Enlaces del pie" class="flex flex-wrap gap-x-7 gap-y-3">
+          <!-- Cambiar por los destinos definitivos -->
+          <a href="#incluye" class="hover:text-ink">Products</a>
+          <a href="#funciona" class="hover:text-ink">Solutions</a>
+          <a href="#preguntas" class="hover:text-ink">Help Center</a>
+          <a href="#precios" class="hover:text-ink">Pricing &amp; Fees</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
